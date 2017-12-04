@@ -4,8 +4,8 @@
 // @description  Save/Hide upcoming releases, various UI improvements.
 // @homepageURL  https://github.com/daraeman/metacritic_improved
 // @author       daraeman
-// @version      1.1
-// @date         2017-08-10
+// @version      1.2
+// @date         2017-12-03
 // @include      http://www.metacritic.com/browse/dvds/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @downloadURL  https://github.com/daraeman/metacritic_improved/raw/master/metacritic_improved.user.js
@@ -245,7 +245,7 @@ jQuery( ".metacritic_improved_ignore" ).click(function(){
 
 jQuery( "body" ).attr( "id", "metacritic_improved" );
 
-jQuery( ".browse_trailer_wrapper" ).parent().parent().hide();
+jQuery( ".browse_trailer_wrapper" ).parent().parent().remove();
 
 // create the hide/show button
 
